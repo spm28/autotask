@@ -5,7 +5,7 @@ mkdir -p current
 mkdir -p old
 rm -rf dist/*
 rm -rf old/*
-mv -rf current/* old/
+mv -f current/* old/
 cp -rf ../../../tmp/Autodeploy.tar.gz current/
 tar -zxvf current/Autodeploy.tar.gz -C dist/
 #service jboss restart
