@@ -10,3 +10,4 @@ rm -rf current/*
 cp -rf ../../../tmp/Autodeploy.tar.gz current/
 tar -zxvf current/Autodeploy.tar.gz
 mv index.html dist/
+#service jboss restart
